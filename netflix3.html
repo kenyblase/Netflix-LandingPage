@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up - Netflix</title>
+        <link rel="stylesheet" href="netflixSignUp.css">
+    </head>
+<body id="body">
+    <div id="container" class="container">
+        <div class="form-container email-container">
+            <form action="#">
+                <h1>Get Started</h1>
+                <span>Register Using Gmail</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="Password" placeholder="Password">
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container number-container">
+            <form action="#">
+                <h1>Let's Go</h1>
+                <span>Or Get Started Using Phone Number</span>
+                <input type="text" placeholder="Name">
+                <input type="tel" placeholder="Phone Number">
+                <input type="Password" placeholder="Password">
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Get Started</h1>
+                    <p>Register using email to start streaming your favourite movies</p>
+                    <button class="ghost" id="number">Use Email</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Sign Up using your phone number to start an amazing journey with us</p>
+                    <button class="ghost" id="email">Try another method</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="netflix.js"></script> 
+</body>
+</html>
